@@ -516,7 +516,10 @@ a {
 }
 
 .testimonial__image {
+  justify-self: center;
+  max-width: 590px;
   position: relative;
+  width: 100%;
 }
 
 .testimonial__image > img {
@@ -529,6 +532,10 @@ a {
   right: -32px;
 }
 
+.quote__text {
+  font-size: 2.2rem;
+}
+
 @media screen and (min-width: 768px) {
   .testimonial .quote,
   .testimonial .quote__author {
@@ -537,6 +544,10 @@ a {
 
   .testimonial .quote {
     margin-left: 6rem;
+  }
+
+  .testimonial .grid-1x2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -624,6 +635,7 @@ a {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
