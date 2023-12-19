@@ -9,6 +9,11 @@
   --border-radius: 30px;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 *,
 *::after,
 *::before {
